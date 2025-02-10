@@ -57,7 +57,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 				enemy->SetIsAlive(false);
 			}
 		}
-		
+
 		switch (scene) {
 		case TITLE:
 			if (keys[DIK_RETURN] && !preKeys[DIK_RETURN]) {
